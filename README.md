@@ -174,7 +174,7 @@ other methods that make it convenient to work with arrays in Ruby.
 To check if a particular element is present in an array, use `#include?`:
 
 ```rb
-letters = ["a", "b", "c"]
+letters = %w[a b c]
 letters.include?("a")
 # => true
 letters.include?("e")
